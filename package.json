@@ -1,0 +1,13 @@
+{
+    "name": "print-env-vars",
+    "version": "1.0.0",
+    "description": "Print all environemnt variables.",
+    "author": "Viktor Breitenbücher <breitenbuecher.viktor@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}

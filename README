@@ -1,0 +1,19 @@
+## Build Docker Image
+
+Build Docker image
+
+```bash
+docker build --platform linux/amd64 . -t vundb/print-env-vars:latest
+```
+
+Push Docker image to Docker Hub
+
+```bash
+docker push vundb/print-env-vars:latest
+```
+
+Test your Docker image
+
+```bash
+docker run -p 8080:8080 --env HELLO=World vundb/print-env-vars:latest
+```
